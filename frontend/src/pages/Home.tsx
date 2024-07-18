@@ -1,6 +1,5 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+
 import { Box, Button, Grid, Typography, useTheme } from "@mui/material";
-import React from "react";
 import Footer from "../components/footer/Footer";
 import { useThemeContext } from "../context/ThemeContext";
 import { Link } from "react-router-dom";

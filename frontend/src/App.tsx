@@ -6,7 +6,7 @@ import Signup from "./pages/Signup";
 import Chat from "./pages/Chat";
 import NotFound from "./pages/NotFound";
 import { useAuth } from "./context/AuthContext";
-import { CssBaseline } from "@mui/material";
+// import { CssBaseline } from "@mui/material";
 import { ThemeProvider } from "./context/ThemeContext";
 
 function App() {

@@ -1,25 +1,26 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Typography, useTheme } from "@mui/material";
 
 const Footer = () => {
+  const theme = useTheme();
   return (
     <footer>
       <Box
         sx={{
           width: '100%',
           height: '60px',
-          backgroundColor: '#f2edea',
+          backgroundColor: theme.palette.primary.main,
           display: 'flex',
           alignItems: 'center',
-          justifyContent: 'center', // Center the content
+          justifyContent: 'center', 
           position: 'fixed',
           bottom: 0,
           left: 0,
         }}
       >
         <Typography variant="h6" component="p" sx={{ textAlign: 'center' }}>
-          Made with ❤ by{' '}
-          <span style={{ color: '#6C6774' }} >
-            BB
+          Made with ❤ by
+          <span style={{ color: theme.palette.warning.main }} >
+             BB
           </span>
         </Typography>
       </Box>

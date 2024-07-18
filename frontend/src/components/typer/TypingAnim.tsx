@@ -1,4 +1,4 @@
-import React from "react";
+
 import { TypeAnimation } from "react-type-animation";
 import { useTheme } from "@mui/material/styles";
 import { Box } from "@mui/material";
