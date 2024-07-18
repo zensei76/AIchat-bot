@@ -1,9 +1,7 @@
 import axios from "axios";
 
-
-axios.defaults.baseURL = "https://ai-chat-bot-xvuy.onrender.com";
-
-
+axios.defaults.baseURL = "https://ai-chat-bot-xvuy.onrender.com/api/v1";
+axios.defaults.withCredentials = true;
 
 export const loginUser = async (email: string, password: string) => {
 	const res = await axios.post("/user/login", { email, password });
