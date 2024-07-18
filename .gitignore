@@ -2,30 +2,8 @@
 node_modules/
 
 # Distribution folder
-dist/
+
 
 # Environment variables
 .env
 
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Operating System Files
-.DS_Store
-Thumbs.db
-
-# Optional npm cache directory
-.npm
-
-# Optional eslint cache
-.eslintcache
-
-# Optional: IDE/Editor folders
-.vscode/
-.idea/
-*.swp
-*.swo
