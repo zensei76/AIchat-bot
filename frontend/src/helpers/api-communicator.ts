@@ -1,6 +1,5 @@
 import axios from "axios";
-import { config } from "dotenv";
-config()
+
 
 axios.defaults.baseURL = "https://ai-chat-bot-xvuy.onrender.com";
 
