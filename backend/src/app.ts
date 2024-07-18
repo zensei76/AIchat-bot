@@ -12,7 +12,7 @@ const app = express();
 app.use(
   cors({
     // origin: [process.env.FRONTEND_URL, process.env.FRONTEND_URL2], 
-    origin: "*",
+    origin: "https://ai-chat-bot-sooty.vercel.app",
     credentials: true,
   })
 );
